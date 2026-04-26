@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name · Data Analyst</title>
+  <meta name="description" content="Data Analyst portfolio — SQL, Power BI, Tableau, Looker. Open to remote opportunities." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script>
+    (function(){var t=localStorage.getItem('theme');if(t==='dark'||(!t&&matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark');})();
+  </script>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a href="#" class="nav-logo">MA<span class="nav-logo-dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Let's talk →</a>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+      <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="2" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+    </button>
+    <button class="nav-burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#projects" class="mobile-link">Projects</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-eyebrow">
+      <span class="availability-dot"></span>
+      Available for remote work
+    </div>
+    <h1 class="hero-title">
+      Turning data<br />
+      <em>into decisions.</em>
+    </h1>
+    <p class="hero-sub">
+      Data Analyst focused on business intelligence, storytelling through data,<br class="br-desktop" />
+      and building dashboards that drive action.
+    </p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn-primary">View projects</a>
+      <a href="assets/cv.pdf" class="btn-secondary" target="_blank">Download CV</a>
+    </div>
+    <div class="hero-stack">
+      <span class="stack-label">Stack</span>
+      <div class="stack-chips">
+        <span class="chip chip-sql">SQL</span>
+        <span class="chip chip-pbi">Power BI</span>
+        <span class="chip chip-tab">Tableau</span>
+        <span class="chip chip-lkr">Looker</span>
+        <span class="chip chip-py">Python</span>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">scroll ↓</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">01</span>
+        <h2 class="section-title">About me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="about-lead">
+            I'm a Data Analyst passionate about finding patterns in complex datasets and translating them into clear, actionable insights.
+          </p>
+          <p class="about-body">
+            I work across the full analytical stack — from writing queries in SQL to building interactive dashboards in Power BI, Tableau, and Looker. I believe the best analysis is the one that gets used.
+          </p>
+          <div class="about-meta">
+            <div class="meta-item">
+              <span class="meta-label">Location</span>
+              <span class="meta-value">El Salvador · GMT-6</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Languages</span>
+              <span class="meta-value">Spanish (native) · English (professional)</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Availability</span>
+              <span class="meta-value">Open to full-time remote</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-skills">
+          <h3 class="skills-heading">Technical skills</h3>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-top">
+                <span class="skill-name">SQL</span>
+                <span class="skill-level">Advanced</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="width:85%;" data-w="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-top">
+                <span class="skill-name">Power BI</span>
+                <span class="skill-level">Intermediate</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="width:70%;" data-w="70"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-top">
+                <span class="skill-name">Tableau</span>
+                <span class="skill-level">Intermediate</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="width:65%;" data-w="65"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-top">
+                <span class="skill-name">Looker / Looker Studio</span>
+                <span class="skill-level">Intermediate</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="width:60%;" data-w="60"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-top">
+                <span class="skill-name">Python (pandas, matplotlib)</span>
+                <span class="skill-level">Basic</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="width:40%;" data-w="40"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">02</span>
+        <h2 class="section-title">Projects</h2>
+      </div>
+      <p class="projects-intro">Each project walks through the full analytical process — from raw data to actionable dashboard.</p>
+
+      <!-- PROJECT CARD 01 — ACTIVE -->
+      <article class="project-card project-featured">
+        <div class="project-card-inner">
+          <div class="project-meta-row">
+            <span class="project-num">01</span>
+            <div class="project-tags">
+              <span class="tag tag-db">Database</span>
+              <span class="tag tag-viz">Dashboards</span>
+            </div>
+          </div>
+          <h3 class="project-title">Project Title Here</h3>
+          <p class="project-desc">
+            Brief description of the analysis — what business problem it solves, what dataset was used, and the key questions it answers. Replace this with your actual project description.
+          </p>
+          <div class="project-tools">
+            <span class="tool-badge">SQL</span>
+            <span class="tool-badge">Power BI</span>
+            <span class="tool-badge">Tableau</span>
+            <span class="tool-badge">Looker</span>
+          </div>
+          <div class="project-dashboards">
+            <h4 class="dashboards-label">Interactive dashboards</h4>
+            <div class="dashboard-tabs">
+              <button class="dash-tab active" data-target="pbi">Power BI</button>
+              <button class="dash-tab" data-target="tab">Tableau</button>
+              <button class="dash-tab" data-target="lkr">Looker</button>
+            </div>
+            <div class="dashboard-frames">
+              <div class="dash-frame active" id="frame-pbi">
+                <div class="embed-placeholder">
+                  <div class="placeholder-icon">&#9632;</div>
+                  <p class="placeholder-title">Power BI Dashboard</p>
+                  <p class="placeholder-sub">Paste your Power BI embed URL in <code>index.html</code></p>
+                  <!-- REPLACE src with your Power BI embed URL -->
+                  <!-- <iframe src="YOUR_POWER_BI_EMBED_URL" width="100%" height="480" frameborder="0" allowfullscreen></iframe> -->
+                </div>
+              </div>
+              <div class="dash-frame" id="frame-tab">
+                <div class="embed-placeholder">
+                  <div class="placeholder-icon">&#9632;</div>
+                  <p class="placeholder-title">Tableau Dashboard</p>
+                  <p class="placeholder-sub">Paste your Tableau Public embed code here</p>
+                  <!-- REPLACE with Tableau Public embed code -->
+                  <!-- <div class="tableauPlaceholder">...</div> -->
+                </div>
+              </div>
+              <div class="dash-frame" id="frame-lkr">
+                <div class="embed-placeholder">
+                  <div class="placeholder-icon">&#9632;</div>
+                  <p class="placeholder-title">Looker Studio Dashboard</p>
+                  <p class="placeholder-sub">Paste your Looker Studio embed URL here</p>
+                  <!-- REPLACE src with your Looker Studio embed URL -->
+                  <!-- <iframe src="YOUR_LOOKER_STUDIO_URL" width="100%" height="480" frameborder="0"></iframe> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-insights">
+            <h4 class="insights-label">Key insights</h4>
+            <ul class="insights-list">
+              <li>Insight #1 — replace with your actual finding from the data</li>
+              <li>Insight #2 — a specific, numbers-backed discovery</li>
+              <li>Insight #3 — a business recommendation derived from the analysis</li>
+            </ul>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link-btn" target="_blank">GitHub repo →</a>
+            <a href="#" class="link-btn" target="_blank">Dataset source →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- PROJECT CARD 02 — COMING SOON -->
+      <article class="project-card project-coming">
+        <div class="project-card-inner">
+          <div class="project-meta-row">
+            <span class="project-num muted">02</span>
+            <span class="tag tag-soon">Coming soon</span>
+          </div>
+          <h3 class="project-title muted">Next project</h3>
+          <p class="project-desc muted">Currently in progress. Check back soon.</p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- TOOL COMPARISON -->
+  <section class="tools-section section" id="tools">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">03</span>
+        <h2 class="section-title">When to use each tool</h2>
+      </div>
+      <p class="tools-intro">Knowing which tool fits the context is as important as knowing how to use it.</p>
+      <div class="tools-grid">
+        <div class="tool-card">
+          <div class="tool-card-header tool-pbi">
+            <span class="tool-card-name">Power BI</span>
+          </div>
+          <ul class="tool-card-list">
+            <li>Corporate Microsoft environments</li>
+            <li>Azure & SharePoint integration</li>
+            <li>Complex DAX calculations</li>
+            <li>Enterprise-level access control</li>
+          </ul>
+        </div>
+        <div class="tool-card">
+          <div class="tool-card-header tool-tab">
+            <span class="tool-card-name">Tableau</span>
+          </div>
+          <ul class="tool-card-list">
+            <li>Visual-first storytelling</li>
+            <li>Large & diverse datasets</li>
+            <li>Public-facing dashboards</li>
+            <li>Exploratory analysis</li>
+          </ul>
+        </div>
+        <div class="tool-card">
+          <div class="tool-card-header tool-lkr">
+            <span class="tool-card-name">Looker Studio</span>
+          </div>
+          <ul class="tool-card-list">
+            <li>Google Workspace teams</li>
+            <li>GA4 & BigQuery pipelines</li>
+            <li>Real-time reporting</li>
+            <li>Free & shareable reports</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">04</span>
+        <h2 class="section-title">Let's connect</h2>
+      </div>
+      <p class="contact-lead">Open to remote Data Analyst roles, freelance projects, and collaborations. Let's talk.</p>
+      <div class="contact-icons">
+        <a href="mailto:marco.a.andrade.a@gmail.com" class="contact-icon-btn" aria-label="Send email">
+          <svg class="contact-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <polyline points="2,4 12,13 22,4"/>
+          </svg>
+          <span class="contact-icon-label">Email</span>
+        </a>
+        <a href="https://www.linkedin.com/in/andrade-marco/" class="contact-icon-btn" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+          <svg class="contact-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+            <rect x="2" y="9" width="4" height="12"/>
+            <circle cx="4" cy="4" r="2"/>
+          </svg>
+          <span class="contact-icon-label">LinkedIn</span>
+        </a>
+        <a href="https://github.com/morphsv" class="contact-icon-btn" target="_blank" rel="noopener" aria-label="GitHub profile">
+          <svg class="contact-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.604-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+          </svg>
+          <span class="contact-icon-label">GitHub</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <span class="footer-name">Marco Andrade · Data Analyst</span>
+      <span class="footer-copy">Built with GitHub Pages · 2026</span>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
